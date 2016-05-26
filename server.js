@@ -1,4 +1,6 @@
 var express = require('express');
+var request = require('request');
+
 var app = express();
 
 // set the port of our application
