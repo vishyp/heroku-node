@@ -50,6 +50,7 @@ console.log(req.body);
 var token = "EAABy6DGoqgIBALwhX54J96cjMiqBZAVJbhdYoj5BnPSvE3sfWtbzyPms6tlAhoypSQnSdc67fxYukjDrMRFXKQZCIs2AQOBha0GM6yLSvTug6RZALqCr0RatKCZBzgknwOh2n9I3u9ZAh8pyRgYoa9uOjythcUNPlFe0z6g4cxgZDZD";
 
 function sendTextMessage(sender, text) {
+ console.log("Sender: " + sender + " text = " + text);
   messageData = {
     text:text
   }
