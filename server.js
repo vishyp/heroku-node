@@ -98,11 +98,18 @@ function sendGenericMessage(sender) {
             "type": "web_url",
             "url": "https://www.messenger.com/",
             "title": "Web url"
-          }, {
+          }, 
+	{
             "type": "postback",
             "title": "Postback",
-            "payload": "Payload for first element in a generic bubble",
-          }],
+            "payload": "Option 1",
+        },
+	{
+            "type": "postback",
+            "title": "Hostback",
+            "payload": "Option 2",
+          }
+],
         },{
           "title": "Second card",
           "subtitle": "Element #2 of an hscroll",
