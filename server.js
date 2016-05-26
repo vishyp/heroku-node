@@ -113,12 +113,7 @@ function sendGenericMessage(sender) {
             "type": "postback",
             "title": "C. George",
             "payload": "C",
-        },
-	{
-            "type": "postback",
-            "title": "D. Ringo",
-            "payload": "D",
-          }
+        }
 ],
         }
 /*,{
