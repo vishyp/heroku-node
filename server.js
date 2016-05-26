@@ -94,11 +94,7 @@ function sendGenericMessage(sender) {
           "title": "First card",
           "subtitle": "Element #1 of an hscroll",
           // "image_url": "http://messengerdemo.parseapp.com/img/rift.png",
-          "buttons": [{
-            "type": "web_url",
-            "url": "https://www.messenger.com/",
-            "title": "Web url"
-          }, 
+          "buttons": [
 	{
             "type": "postback",
             "title": "A. jon",
