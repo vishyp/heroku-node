@@ -101,16 +101,27 @@ function sendGenericMessage(sender) {
           }, 
 	{
             "type": "postback",
-            "title": "Postback",
-            "payload": "Option 1",
+            "title": "A. jon",
+            "payload": "A",
         },
 	{
             "type": "postback",
-            "title": "Hostback",
-            "payload": "Option 2",
+            "title": "B. Paul",
+            "payload": "B",
+        },
+	{
+            "type": "postback",
+            "title": "C. George",
+            "payload": "C",
+        },
+	{
+            "type": "postback",
+            "title": "D. Ringo",
+            "payload": "D",
           }
 ],
-        },{
+        }
+/*,{
           "title": "Second card",
           "subtitle": "Element #2 of an hscroll",
           "image_url": "http://messengerdemo.parseapp.com/img/gearvr.png",
@@ -119,7 +130,8 @@ function sendGenericMessage(sender) {
             "title": "Postback",
             "payload": "Payload for second element in a generic bubble",
           }],
-        }]
+        } */
+]
       }
     }
   };
