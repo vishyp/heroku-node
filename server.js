@@ -10,6 +10,8 @@ app.set('view engine', 'ejs');
 
 // make express look in the public directory for assets (css/js/img)
 app.use(express.static(__dirname + '/public'));
+var bodyParser = require('body-parser');
+app.use(bodyParser.json()); // for parsing application/json
 
 // set the home page route
 app.get('/', function(req, res) {
@@ -32,7 +34,7 @@ app.get('/webhook/', function (req, res) {
 
 app.post('/webhook/', function (req, res) {
 console.log("printing req *****");
-console.log(req);
+console.log(req.body);
   messaging_events = req.body.entry[0].messaging;
   for (i = 0; i < messaging_events.length; i++) {
     event = req.body.entry[0].messaging[i];
